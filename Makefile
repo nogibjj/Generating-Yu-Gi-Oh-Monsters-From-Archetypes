@@ -18,6 +18,7 @@ build:
 run:
 	docker run -it --rm -p 8080:8080 yugioh_card_generator
 	# docker run -dp 8080:8080 yugioh_card_generator
+	# docker run -it yugioh_card_generator
 
 run-local:
 	streamlit app run app.py
