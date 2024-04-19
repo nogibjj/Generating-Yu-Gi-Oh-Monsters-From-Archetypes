@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
-from PIL import Image
-import requests
+# from PIL import Image
+# import requests
 
 # Function to generate random text
 def generate_text():
