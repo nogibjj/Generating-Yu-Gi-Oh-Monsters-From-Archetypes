@@ -19,3 +19,8 @@ Current solutions for generating yu-gi-oh cards are insufficient and lacking in 
 9. Is there a better approach than using an archetype to define the training data? What about monster cards, card types, card series' origins, pixel similarities?
 
 **Note to Eric and Jiwon** : Divide these questions by domain questions and experimental research questions, remember to research the space well to know what people are doing. The research is two fold : how do people generate fake cards (Pok'emon is the most famous) and what techniques from machine learning (Text and CV) are most app for this problem?
+
+
+**Note to Jiwon**: Thank you for doing my Dream ML project with me.
+
+**Other Note to Jiwon**: I've put up with your annoying existence for a full year, but one in-class semester. I will endure a bit more just to torment you further, woman.
