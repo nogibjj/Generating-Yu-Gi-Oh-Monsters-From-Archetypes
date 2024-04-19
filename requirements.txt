@@ -2,3 +2,4 @@ streamlit
 black
 pylint
 pytest
+altair
