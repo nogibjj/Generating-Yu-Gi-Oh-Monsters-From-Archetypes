@@ -16,7 +16,7 @@ build:
 	docker build -t yugioh_card_generator .
 
 run:
-	docker run -it --rm -p 8080:8080 yugioh_card_generator
+	docker run -it --rm -p 8501:8501 yugioh_card_generator
 	# docker run -dp 8080:8080 yugioh_card_generator
 	# docker run -it yugioh_card_generator
 
