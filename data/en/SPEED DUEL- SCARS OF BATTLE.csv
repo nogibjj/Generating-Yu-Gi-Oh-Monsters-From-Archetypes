@@ -1,0 +1,46 @@
+Passcode$Name$Status$Attribute$type$link$link_arrows$rank$pendulum_scale$level$attack$defense$spell_attribute$summoning_condition$pendulum_condition$card_text$card_supports$card_anti_supports$card_actions$effect_types$
+7802006$Magical Plant Mandragola$$DARK$[Spellcaster/effect]$$$$$2$500$200$$$$FLIP: Place 1 Spell Counter on each face-up card on the field that you can place a Spell Counter on.$$$$$
+45462639$Dark Red Enchanter$$DARK$[Spellcaster/effect]$$$$$6$1700$2200$$$$If this card is Normal Summoned: Place 2 Spell Counters on it. Each time a Spell Card is activated, place 1 Spell Counter on this card when that Spell resolves. Gains 300 ATK for each Spell Counter on it. Once per turn: You can remove 2 Spell Counters from this card; discard 1 random card from your opponent's hand.$$$$$
+82099401$Crystal Seer$$WATER$[Spellcaster/effect]$$$$$1$100$100$$$$FLIP: Excavate the top 2 cards of your Deck, then add 1 of them to your hand, then place the other on the bottom of your Deck.$$$$$
+75014062$Spell Power Grasp$$SPELL$$$$$$$$$Normal$$$Target 1 face-up card on the field that you can place a Spell Counter on; place 1 Spell Counter on that target, then you can add 1 "Spell Power Grasp" from your Deck to your hand. You can only activate 1 "Spell Power Grasp" per turn.$$$$$
+18807109$Spellbinding Circle$$TRAP$$$$$$$$$Continuous$$$Activate this card by targeting 1 monster your opponent controls; it cannot attack or change its battle position. When that monster is destroyed, destroy this card.$$$$$
+55013285$Troop Dragon$$WIND$[Dragon/effect]$$$$$2$700$800$$$$If this card is destroyed by battle and sent to the GY: Special Summon 1 "Troop Dragon" from your Deck.$$$$$
+53839837$Vampire Lord$$DARK$[Zombie/effect]$$$$$5$2000$1500$$$$If this card inflicts battle damage to your opponent: Declare 1 type of card (Monster, Spell, or Trap); your opponent sends 1 card of that type from their Deck to the GY. Once per turn, during your next Standby Phase after this card in your possession was destroyed and sent to your GY by an opponent's card effect: Special Summon this card from the GY.$$$$$
+10375182$Command Knight$$FIRE$[Warrior/effect]$$$$$4$1200$1900$$$$All Warrior monsters you control gain 400 ATK. If you control another monster, monsters your opponent controls cannot target this card for attacks.$$$$$
+57046845$Gearfried the Swordmaster$$LIGHT$[Warrior/effect]$$$$$7$2600$2200$$$$Cannot be Normal Summoned/Set. Must be Special Summoned with "Release Restraint". Each time an Equip Card(s) is equipped to this card: Target 1 monster your opponent controls; destroy that target.$$$$$
+75417459$Release Restraint$$SPELL$$$$$$$$$Normal$$$Tribute 1 "Gearfried the Iron Knight"; Special Summon 1 "Gearfried the Swordmaster" from your hand or Deck.$$$$$
+35282433$Blue-Eyed Silver Zombie$$DARK$[Zombie/normal]$$$$$3$900$700$$$$The beams from the eyes of this creature are said to turn enemies into zombies.$$$$$
+53581214$Fire Reaper$$DARK$[Zombie/normal]$$$$$2$700$500$$$$A reaper with a flaming arrow that burns an enemy to a crisp.$$$$$
+2204140$Book of Life$$SPELL$$$$$$$$$Normal$$$Target 1 Zombie monster in your GY and 1 monster in your opponent's GY; Special Summon the first target, also banish the second target.$$$$$
+27655513$Skreech$$WATER$[Reptile/effect]$$$$$4$1500$400$$$$If this card is destroyed by battle: Send 2 WATER monsters from your Deck to the GY.$$$$$
+62337487$Fortress Whale$$WATER$[Fish/ritual]$$$$$7$2350$2150$$$$You can Ritual Summon this card with "Fortress Whale's Oath".$$$$$
+77454922$Fortress Whale's Oath$$SPELL$$$$$$$$$Ritual$$$This card is used to Ritual Summon "Fortress Whale". You must also Tribute monsters from your hand or field whose total Levels equal 7 or more.$$$$$
+51934376$Kabazauls$$WATER$[Dinosaur/normal]$$$$$4$1700$1500$$$$A huge monster in the shape of a hippopotamus. The sneezing from his gigantic body is so fierce that people mistake it for a hurricane.$$$$$
+62701967$Jurrac Tyrannus$$FIRE$[Dinosaur/effect]$$$$$7$2500$1400$$$$You can Tribute 1 Dinosaur monster; this card gains 500 ATK. If this card destroys an opponent's monster by battle and sends it to the GY: This card gains 300 ATK.$$$$$
+58818411$Empress Mantis$$WIND$[Insect/normal]$$$$$6$2200$1400$$$$Queen of an army of giant mantises whose command moves legions.$$$$$
+48588176$Danipon$$EARTH$[Insect/effect]$$$$$2$600$600$$$$When this card is destroyed by battle and sent to the GY: You can add 1 Insect monster with 1000 or less DEF from your Deck to your hand.$$$$$
+3492538$Insect Armor with Laser Cannon$$SPELL$$$$$$$$$Equip$$$Equip only to an Insect monster. It gains 700 ATK.$$$$$
+19737320$Gatekeeper$$DARK$[Machine/normal]$$$$$5$1500$1800$$$$An indestructible mechanoid created for the sole purpose of guarding the gateways.$$$$$
+24433920$Pendulum Machine$$DARK$[Machine/normal]$$$$$6$1750$2000$$$$A horrible torture machine with a large pendulum blade.$$$$$
+87322377$Launcher Spider$$FIRE$[Machine/normal]$$$$$7$2200$2500$$$$A mechanical spider with rocket launchers capable of random fire.$$$$$
+3797883$Slot Machine$$DARK$[Machine/normal]$$$$$7$2000$2300$$$$The machine's ability is said to vary according to its slot results.$$$$$
+81480461$Barrel Dragon$$DARK$[Machine/effect]$$$$$7$2600$2200$$$$Once per turn: You can target 1 monster your opponent controls; toss a coin 3 times and destroy it if at least 2 of the results are heads.$$$$$
+26302522$Blast Sphere$$DARK$[Machine/effect]$$$$$4$1400$1400$$$$If this face-down Defense Position card was attacked by an opponent's monster, before damage calculation: Equip this card to the attacking monster. Then, during your opponent's next Standby Phase: Destroy the monster this card is equipped to, and if you do, inflict damage to your opponent equal to the ATK the destroyed monster had on the field.$$$$$
+25769732$Machine Conversion Factory$$SPELL$$$$$$$$$Equip$$$Equip only to a Machine monster. It gains 300 ATK/DEF.$$$$$
+86198326$7 Completed$$SPELL$$$$$$$$$Equip$$$Activate this card by choosing ATK or DEF; equip only to a Machine monster. It gains 700 ATK or DEF, depending on the choice.$$$$$
+68540059$Metalmorph$$TRAP$$$$$$$$$Normal$$$Target 1 face-up monster on the field; equip this card to that target. It gains 300 ATK/DEF. If it attacks, it gains ATK equal to half the ATK of the attack target, during damage calculation only.$$$$$
+8715625$Bokoichi the Freightening Car$$DARK$[Machine/normal]$$$$$2$500$500$$$$A freight car that is exclusively for Dekoichi. It can transport anything, but most cargo arrives broken.$$$$$
+87621407$Dekoichi the Battlechanted Locomotive$$DARK$[Machine/effect]$$$$$4$1400$1000$$$$FLIP: Draw 1 card, then draw 1 additional card for each face-up "Bokoichi the Freightening Car" you control.$$$$$
+28933734$Mask of Darkness$$DARK$[Fiend/effect]$$$$$2$900$400$$$$FLIP: Target 1 Trap in your GY; add that target to your hand.$$$$$
+73431236$Iron Blacksmith Kotetsu$$FIRE$[Beast-Warrior/effect]$$$$$2$500$500$$$$FLIP: Add 1 Equip Spell from your Deck to your hand.$$$$$
+25171661$Infernity Dwarf$$DARK$[Warrior/effect]$$$$$2$800$500$$$$While you have no cards in your hand, if a monster you control attacks a Defense Position monster, inflict piercing battle damage to your opponent.$$$$$
+36629203$Ally of Justice Core Destroyer$$DARK$[Machine/effect]$$$$$3$1200$200$$$$At the start of the Damage Step, if this card battles a LIGHT monster: Destroy that monster.$$$$$
+25727454$Master Craftsman Gamil$$FIRE$[Pyro/effect]$$$$$2$200$200$$$$During the Damage Step, when a face-up monster you control battles (Quick Effect): You can send this card from your hand to the GY; that monster gains 300 ATK until the end of this turn.$$$$$
+95051344$Eternal Rest$$SPELL$$$$$$$$$Normal$$$Destroy all monsters equipped with Equip Cards.$$$$$
+32022366$Gravity Axe - Grarl$$SPELL$$$$$$$$$Equip$$$The equipped monster gains 500 ATK. Monsters your opponent controls cannot change their battle positions.$$$$$
+73680966$The Beginning of the End$$SPELL$$$$$$$$$Normal$$$If you have 7 or more DARK monsters in your GY: Banish 5 DARK monsters from your GY; draw 3 cards.$$$$$
+6178850$Fighting Spirit$$SPELL$$$$$$$$$Equip$$$The equipped monster gains 300 ATK for each monster your opponent controls. If it would be destroyed by battle, you can destroy this card instead.$$$$$
+63851864$Break! Draw!$$SPELL$$$$$$$$$Equip$$$Equip only to a Machine monster. If the equipped monster destroys an opponent's monster by battle and sends it to the GY: Draw 1 card. Destroy this card during your 3rd End Phase after activation.$$$$$
+89882100$Night Beam$$SPELL$$$$$$$$$Normal$$$Target 1 Set Spell/Trap your opponent controls; destroy that target. Your opponent cannot activate the targeted card in response to this card's activation.$$$$$
+26533075$Security Orb$$TRAP$$$$$$$$$Normal$$$When your opponent's monster declares an attack: Target that attacking monster; change that target's battle position. If this Set card is destroyed by your opponent's Spell/Trap effect and sent to the GY: Destroy 1 monster on the field.$$$$$
+32207100$A Major Upset$$TRAP$$$$$$$$$Normal$$$Tribute 1 face-up Attack Position Level 2 or lower monster you control; return all Level 7 or higher Special Summoned monsters to the hand.$$$$$

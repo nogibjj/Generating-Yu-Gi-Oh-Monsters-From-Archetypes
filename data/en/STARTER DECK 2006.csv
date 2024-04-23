@@ -1,0 +1,41 @@
+Passcode$Name$Status$Attribute$type$link$link_arrows$rank$pendulum_scale$level$attack$defense$spell_attribute$summoning_condition$pendulum_condition$card_text$card_supports$card_anti_supports$card_actions$effect_types$
+5818798$Gazelle the King of Mythical Beasts$$EARTH$[Beast/normal]$$$$$4$1500$1200$$This monster moves so fast that it looks like an illusion to mortal eyes.$$$$$$$
+75953262$Warrior Dai Grepher$$EARTH$[Warrior/normal]$$$$$4$1700$1600$$$$The warrior who can manipulate dragons. Nobody knows his mysterious past.$$$$$
+17658803$Luster Dragon #2$$WIND$[Dragon/normal]$$$$$6$2400$1400$$$$This dragon feeds on emerald. Enchanted by this monster even when attacked, few people live to tell of its beauty.$$$$$
+11321183$Dark Blade$$DARK$[Warrior/normal]$$$$$4$1800$1500$$$$They say he is a dragon-manipulating warrior from the dark world. His attack is tremendous, using his great swords with vicious power.$$$$$
+11091375$Luster Dragon$$WIND$[Dragon/normal]$$$$$4$1900$1600$$$$A very beautiful dragon covered with sapphire. It does not like fights, but has incredibly high attack power.$$$$$
+66073051$Warrior of Zera$$EARTH$[Warrior/normal]$$$$$4$1600$1600$$$$A wandering warrior who seeks the sanctuary where he can gain the power of the Archlords. To escape the temptation of evil fiends, he fights solo day by day.$$$$$
+21844576$Elemental HERO Avian$$WIND$[Warrior/normal]$$$$$3$1000$1000$$$$A winged Elemental HERO who wheels through the sky and manipulates the wind. His signature move, Featherbreak, gives villainy a blow from sky-high.$$$$$
+58932615$Elemental HERO Burstinatrix$$FIRE$[Warrior/normal]$$$$$3$1200$800$$$$A flame manipulator who was the first Elemental HERO woman. Her Burstfire burns away villainy.$$$$$
+84327329$Elemental HERO Clayman$$EARTH$[Warrior/normal]$$$$$4$800$2000$$$$An Elemental HERO with a clay body built-to-last. He'll preserve his Elemental HERO colleagues at any cost.$$$$$
+20721928$Elemental HERO Sparkman$$LIGHT$[Warrior/normal]$$$$$4$1600$1400$$$$An Elemental HERO and a warrior of light who proficiently wields many kinds of armaments. His Static Shockwave cuts off the path of villainy.$$$$$
+60694662$Skelengel$$LIGHT$[Fairy/effect]$$$$$2$900$400$$$$FLIP: Draw 1 card.$$$$$
+31560081$Magician of Faith$$LIGHT$[Spellcaster/effect]$$$$$1$300$400$$$$FLIP: Target 1 Spell in your GY; add that target to your hand.$$$$$
+40640057$Kuriboh$$DARK$[Fiend/effect]$$$$$1$300$200$$$$During damage calculation, if your opponent's monster attacks (Quick Effect): You can discard this card; you take no battle damage from that battle.$$$$$
+51371017$Princess of Tsurugi$$WIND$[Warrior/effect]$$$$$3$900$700$$$$FLIP: Inflict 500 damage to your opponent for each Spell and Trap Card on your opponent's side of the field.$$$$$
+31553716$Spear Dragon$$WIND$[Dragon/effect]$$$$$4$1900$0$$$$During battle between this attacking card and a Defense Position monster whose DEF is lower than the ATK of this card, inflict the difference as Battle Damage to your opponent. If this card attacks, it is changed to Defense Position at the end of the Damage Step.$$$$$
+48659020$Spirit Caller$$LIGHT$[Spellcaster/effect]$$$$$3$1000$1000$$$$FLIP: You can Special Summon 1 Level 3 or lower Normal Monster from your Graveyard to your side of the field.$$$$$
+38479725$The Trojan Horse$$EARTH$[Beast/effect]$$$$$4$1600$1200$$$$When Tribute Summoning an EARTH monster, you can treat this 1 monster as 2 Tributes.$$$$$
+15960641$Mirage Dragon$$LIGHT$[Dragon/effect]$$$$$4$1600$600$$$$Your opponent cannot activate Trap Cards during the Battle Phase.$$$$$
+59793705$Elemental HERO Bladedge$$EARTH$[Warrior/effect]$$$$$7$2600$1800$$$$If this card attacks a Defense Position monster, inflict piercing battle damage to your opponent.$$$$$
+19523799$Ookazi$$SPELL$$$$$$$$$Normal$$$Inflict 800 damage to your opponent.$$$$$
+65169794$Black Pendant$$SPELL$$$$$$$$$Equip$$$The equipped monster gains 500 ATK. When this card is sent from the field to the Graveyard: Inflict 500 damage to your opponent.$$$$$
+56594520$Gaia Power$$SPELL$$$$$$$$$Field$$$All EARTH monsters gain 500 ATK and lose 400 DEF.$$$$$
+70828912$Premature Burial$$SPELL$$$$$$$$$Equip$$$Activate this card by paying 800 LP, then target 1 monster in your Graveyard; Special Summon that target in Attack Position and equip it with this card. When this card is destroyed, destroy the equipped monster.$$$$$
+38199696$Red Medicine$$SPELL$$$$$$$$$Normal$$$Increase your Life Points by 500 points.$$$$$
+66788016$Fissure$$SPELL$$$$$$$$$Normal$$$Destroy the 1 face-up monster your opponent controls that has the lowest ATK (your choice, if tied).$$$$$
+$Tribute to The Doomed$$SPELL$$$$$$$$$$$$Discard 1 card, then target 1 monster on the field; destroy it.$$$$$
+19613556$Heavy Storm$$SPELL$$$$$$$$$Normal$$$Destroy all Spell and Trap Cards on the field.$$$$$
+95281259$The Warrior Returning Alive$$SPELL$$$$$$$$$Normal$$$Target 1 Warrior-Type monster in your Graveyard; add that target to your hand.$$$$$
+90928333$Dark Factory of Mass Production$$SPELL$$$$$$$$$Normal$$$Target 2 Normal Monsters in your GY; add them to your hand.$$$$$
+74848038$Monster Reincarnation$$SPELL$$$$$$$$$Normal$$$Discard 1 card, then target 1 monster in your GY; add it to your hand.$$$$$
+87910978$Brain Control$$SPELL$$$$$$$$$Normal$$$Pay 800 LP, then target 1 face-up monster your opponent controls that can be Normal Summoned/Set; take control of that target until the End Phase.$$$$$
+17814387$Reinforcements$$TRAP$$$$$$$$$Normal$$$Target 1 face-up monster on the field; it gains 500 ATK until the end of this turn.$$$$$
+44209392$Castle Walls$$TRAP$$$$$$$$$Normal$$$Increase the DEF of 1 face-up monster on the field by 500 points until the end of this turn.$$$$$
+31785398$Ready for Intercepting$$TRAP$$$$$$$$$Normal$$$Target 1 Warrior or Spellcaster monster on the field; change that target to face-down Defense Position.$$$$$
+60082869$Dust Tornado$$TRAP$$$$$$$$$Normal$$$Target 1 Spell/Trap your opponent controls; destroy that target, then you can Set 1 Spell/Trap from your hand.$$$$$
+83968380$Jar of Greed$$TRAP$$$$$$$$$Normal$$$Draw 1 card.$$$$$
+56120475$Sakuretsu Armor$$TRAP$$$$$$$$$Normal$$$When an opponent's monster declares an attack: Target the attacking monster; destroy that target.$$$$$
+94192409$Compulsory Evacuation Device$$TRAP$$$$$$$$$Normal$$$Target 1 monster on the field; return that target to the hand.$$$$$
+51394546$Cemetary Bomb$$TRAP$$$$$$$$$Normal$$$Inflict 100 damage to your opponent for each card in their Graveyard.$$$$$
+62279055$Magic Cylinder$$TRAP$$$$$$$$$Normal$$$When an opponent's monster declares an attack: Target the attacking monster; negate the attack, and if you do, inflict damage to your opponent equal to its ATK.$$$$$

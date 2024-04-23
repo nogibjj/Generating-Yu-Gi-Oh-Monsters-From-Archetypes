@@ -1,0 +1,47 @@
+Passcode$Name$Status$Attribute$type$link$link_arrows$rank$pendulum_scale$level$attack$defense$spell_attribute$summoning_condition$pendulum_condition$card_text$card_supports$card_anti_supports$card_actions$effect_types$
+46986414$Dark Magician$$DARK$[Spellcaster/normal]$$$$$7$2500$2100$$$$''The ultimate wizard in terms of attack and defense.''$$$$$
+15025844$Mystical Elf$$LIGHT$[Spellcaster/normal]$$$$$4$800$2000$$$$A delicate elf that lacks offense, but has a terrific defense backed by mystical power.$$$$$
+13039848$Giant Soldier of Stone$$EARTH$[Rock/normal]$$$$$3$1300$2000$$$$A giant warrior made of stone. A punch from this creature has earth-shaking results.$$$$$
+70781052$Summoned Skull$$DARK$[Fiend/normal]$$$$$6$2500$1200$$A fiend with dark powers for confusing the enemy. Among the Fiend-Type monsters, this monster boasts considerable force.$$$$$$$
+50930991$Neo the Magic Swordsman$$LIGHT$[Spellcaster/normal]$$$$$4$1700$1000$$$$A dimensional drifter who not only practices sorcery, but is also a sword and martial arts master.$$$$$
+69140098$Gemini Elf$$EARTH$[Spellcaster/normal]$$$$$4$1900$900$$$$Elf twins that alternate their attacks.$$$$$
+11321183$Dark Blade$$DARK$[Warrior/normal]$$$$$4$1800$1500$$$$They say he is a dragon-manipulating warrior from the dark world. His attack is tremendous, using his great swords with vicious power.$$$$$
+40640057$Kuriboh$$DARK$[Fiend/effect]$$$$$1$300$200$$$$During damage calculation, if your opponent's monster attacks (Quick Effect): You can discard this card; you take no battle damage from that battle.$$$$$
+78193831$Buster Blader$$EARTH$[Warrior/effect]$$$$$7$2600$2300$$$$Gains 500 ATK for each Dragon monster your opponent controls or is in their GY.$$$$$
+83994646$4-Starred Ladybug of Doom$$WIND$[Insect/effect]$$$$$3$800$1200$$$$FLIP: Destroy all Level 4 monsters your opponent controls.$$$$$
+38033121$Dark Magician Girl$$DARK$[Spellcaster/effect]$$$$$6$2000$1700$$$$Gains 300 ATK for every "Dark Magician" or "Magician of Black Chaos" in the GY.$$$$$
+46363422$Skilled White Magician$$LIGHT$[Spellcaster/effect]$$$$$4$1700$1900$$$$Each time a Spell Card is activated, place 1 Spell Counter on this card when that Spell Card resolves (max. 3). You can Tribute this card with 3 Spell Counters on it; Special Summon 1 "Buster Blader" from your hand, Deck, or Graveyard.$$$$$
+73752131$Skilled Dark Magician$$DARK$[Spellcaster/effect]$$$$$4$1900$1700$$$$Each time a Spell Card is activated, place 1 Spell Counter on this card when that Spell resolves (max. 3). You can Tribute this card with 3 Spell Counters on it; Special Summon 1 "Dark Magician" from your hand, Deck, or GY.$$$$$
+45141844$Old Vindictive Magician$$DARK$[Spellcaster/effect]$$$$$2$450$600$$$$FLIP: Target 1 monster your opponent controls; destroy that target.$$$$$
+71413901$Breaker the Magical Warrior$$DARK$[Spellcaster/effect]$$$$$4$1600$1000$$$$If this card is Normal Summoned: Place 1 Spell Counter on it (max. 1). Gains 300 ATK for each Spell Counter on it. You can remove 1 Spell Counter from this card, then target 1 Spell/Trap on the field; destroy that target.$$$$$
+44436472$Double Coston$$DARK$[Zombie/effect]$$$$$4$1700$1650$$$$This card can be treated as 2 Tributes for the Tribute Summon of a DARK monster.$$$$$
+1995985$Silent Swordsman LV3$$LIGHT$[Warrior/effect]$$$$$3$1000$1000$$$$Negate your opponent's Spell effects that target this card. During your Standby Phase: You can send this face-up card to the Graveyard; Special Summon 1 "Silent Swordsman LV5" from your hand or Deck. You cannot activate this effect the turn this card is Summoned or flipped face-up.$$$$$
+74388798$Silent Swordsman LV5$$LIGHT$[Warrior/effect]$$$$$5$2300$1000$$$$Unaffected by your opponent's Spell effects. During your next Standby Phase after this card inflicts battle damage to your opponent by a direct attack: You can send this face-up card to the Graveyard; Special Summon 1 "Silent Swordsman LV7" from your hand or Deck.$$$$$
+41172955$Green Gadget$$EARTH$[Machine/effect]$$$$$4$1400$600$$$$When this card is Normal or Special Summoned: You can add 1 "Red Gadget" from your Deck to your hand.$$$$$
+86445415$Red Gadget$$EARTH$[Machine/effect]$$$$$4$1300$1500$$$$When this card is Normal or Special Summoned: You can add 1 "Yellow Gadget" from your Deck to your hand.$$$$$
+13839120$Yellow Gadget$$EARTH$[Machine/effect]$$$$$4$1200$1200$$$$When this card is Normal or Special Summoned: You can add 1 "Green Gadget" from your Deck to your hand.$$$$$
+24725825$Electric Virus$$LIGHT$[Thunder/effect]$$$$$3$1000$1000$$$$You can discard this card to the Graveyard, then target 1 Machine or Dragon-Type monster your opponent controls; take control of that target until the End Phase.$$$$$
+80304126$Magician's Valkyria$$LIGHT$[Spellcaster/effect]$$$$$4$1600$1800$$$$Monsters your opponent controls cannot target face-up Spellcaster-Type monsters for attacks, except this one.$$$$$
+14778250$The Tricky$$WIND$[Spellcaster/effect]$$$$$5$2000$1200$$$$You can Special Summon this card (from your hand) by discarding 1 card.$$$$$
+53129443$Dark Hole$$SPELL$$$$$$$$$Normal$$$Destroy all monsters on the field.$$$$$
+72302403$Swords of Revealing Light$$SPELL$$$$$$$$$Normal$$$After this card's activation, it remains on the field, but you must destroy it during the End Phase of your opponent's 3rd turn. When this card is activated: If your opponent controls a face-down monster, flip all monsters they control face-up. While this card is face-up on the field, your opponent's monsters cannot declare an attack.$$$$$
+65169794$Black Pendant$$SPELL$$$$$$$$$Equip$$$The equipped monster gains 500 ATK. When this card is sent from the field to the Graveyard: Inflict 500 damage to your opponent.$$$$$
+5318639$Mystical Space Typhoon$$SPELL$$$$$$$$$Quick-Play$$$Target 1 Spell/Trap on the field; destroy that target.$$$$$
+83746708$Mage Power$$SPELL$$$$$$$$$Equip$$$The equipped monster gains 500 ATK and DEF for each Spell/Trap Card you control.$$$$$
+14087893$Book of Moon$$SPELL$$$$$$$$$Quick-Play$$$Target 1 face-up monster on the field; change that target to face-down Defense Position.$$$$$
+63391643$Thousand Knives$$SPELL$$$$$$$$$Normal$$$If you control "Dark Magician": Target 1 monster your opponent controls; destroy that target.$$$$$
+2314238$Dark Magic Attack$$SPELL$$$$$$$$$Normal$$$If you control "Dark Magician": Destroy all Spells and Traps your opponent controls.$$$$$
+28553439$Magical Dimension$$SPELL$$$$$$$$$Quick-Play$$$If you control a Spellcaster monster: Target 1 monster you control; Tribute that target, then Special Summon 1 Spellcaster monster from your hand, then you can destroy 1 monster on the field.$$$$$
+10667321$Ancient Rules$$SPELL$$$$$$$$$Normal$$$Special Summon 1 Level 5 or higher Normal Monster from your hand.$$$$$
+36045450$Magicians Unite$$SPELL$$$$$$$$$Normal$$$If you control 2 or more Attack Position Spellcaster monsters: Target 1 of them; its ATK becomes 3000 until the end of this turn, also for the rest of this turn after this card resolves, other Spellcaster monsters you control cannot attack.$$$$$
+81510157$Soul Taker$$SPELL$$$$$$$$$Normal$$$Target 1 face-up monster your opponent controls; destroy that target, then your opponent gains 1000 LP.$$$$$
+33904024$Shard of Greed$$SPELL$$$$$$$$$Continuous$$$Each time you draw a card(s) for your normal draw in your Draw Phase, place 1 Greed Counter on this card. You can send this card with 2 or more Greed Counters to the GY; draw 2 cards.$$$$$
+4206964$Trap Hole$$TRAP$$$$$$$$$Normal$$$When your opponent Normal or Flip Summons 1 monster with 1000 or more ATK: Target that monster; destroy that target.$$$$$
+12607053$Waboku$$TRAP$$$$$$$$$Normal$$$You take no battle damage from your opponent's monsters this turn. Your monsters cannot be destroyed by battle this turn.$$$$$
+44095762$Mirror Force$$TRAP$$$$$$$$$Normal$$$When an opponent's monster declares an attack: Destroy all your opponent's Attack Position monsters.$$$$$
+18807109$Spellbinding Circle$$TRAP$$$$$$$$$Continuous$$$Activate this card by targeting 1 monster your opponent controls; it cannot attack or change its battle position. When that monster is destroyed, destroy this card.$$$$$
+97077563$Call of the Haunted$$TRAP$$$$$$$$$Continuous$$$Activate this card by targeting 1 monster in your GY; Special Summon that target in Attack Position. When this card leaves the field, destroy that monster. When that monster is destroyed, destroy this card.$$$$$
+62279055$Magic Cylinder$$TRAP$$$$$$$$$Normal$$$When an opponent's monster declares an attack: Target the attacking monster; negate the attack, and if you do, inflict damage to your opponent equal to its ATK.$$$$$
+68334074$Miracle Restoring$$TRAP$$$$$$$$$Normal$$$Remove 2 Spell Counters from your side of the field, then target 1 "Dark Magician" or "Buster Blader" in your Graveyard; Special Summon that target.$$$$$
+83133491$Zero Gravity$$TRAP$$$$$$$$$Normal$$$Change the battle positions of all face-up monsters on the field.$$$$$
+78211862$Rising Energy$$TRAP$$$$$$$$$Normal$$$Discard 1 card, then target 1 face-up monster on the field; that target gains 1500 ATK until the End Phase.$$$$$

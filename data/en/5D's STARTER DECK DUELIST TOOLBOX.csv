@@ -1,0 +1,45 @@
+Passcode$Name$Status$Attribute$type$link$link_arrows$rank$pendulum_scale$level$attack$defense$spell_attribute$summoning_condition$pendulum_condition$card_text$card_supports$card_anti_supports$card_actions$effect_types$
+48094997$Battle Footballer$$FIRE$[Machine/normal]$$$$$4$1000$2100$$$$A cyborg with high defense power. Originally it was invented for a football machine.$$$$$
+5464695$Blazing Inpachi$$FIRE$[Pyro/normal]$$$$$4$1850$0$$$$A wicked wooden spirit now burning in flames. Its fire attack is powerful, but it will soon be nothing but ashes.$$$$$
+74093656$Tune Warrior$$EARTH$[Warrior/normal]$$$$$3$1600$200$$$$The Warrior's antenna can attune it to any energy wave. It can monitor transmissions from miles away but always suffers from bad reception.$$$$$
+255998$Rapid Warrior$$WIND$[Warrior/effect]$$$$$4$1200$200$$$$During your Main Phase 1, you can activate this card's effect. If you do, it can attack your opponent directly this turn. Other monsters cannot attack during the turn you activate this effect.$$$$$
+36643046$Synchron Explorer$$EARTH$[Machine/effect]$$$$$2$0$700$$$$When this card is Normal Summoned: You can target 1 "Synchron" monster in your Graveyard; Special Summon that target, but its effects are negated.$$$$$
+54652250$Man-Eater Bug$$EARTH$[Insect/effect]$$$$$2$450$600$$$$FLIP: Target 1 monster on the field; destroy it.$$$$$
+21015833$Hayabusa Knight$$EARTH$[Warrior/effect]$$$$$3$1000$700$$$$This card can make a second attack during each Battle Phase.$$$$$
+77252217$Chainsaw Insect$$EARTH$[Insect/effect]$$$$$4$2400$0$$$$At the end of the Damage Step, if this card attacked or was attacked: Your opponent draws 1 card.$$$$$
+88650530$Worm Apocalypse$$LIGHT$[Reptile/effect]$$$$$1$300$200$$$$FLIP: Target 1 Spell/Trap Card on the field; destroy that target.$$$$$
+63977008$Junk Synchron$$DARK$[Warrior/effect]$$$$$3$1300$500$$$$When this card is Normal Summoned: You can target 1 Level 2 or lower monster in your Graveyard; Special Summon that target in Defense Position, but it has its effects negated.$$$$$
+9365703$Speed Warrior$$WIND$[Warrior/effect]$$$$$2$900$400$$$$Once per Battle Phase, if this card was Normal Summoned this turn (except during the Damage Step): You can make its ATK become double its original ATK, until the end of the Battle Phase.$$$$$
+23571046$Quillbolt Hedgehog$$EARTH$[Machine/effect]$$$$$2$800$800$$$$If this card is in your Graveyard: You can Special Summon this card, but banish it when it leaves the field. You must control a Tuner monster to activate and to resolve this effect.$$$$$
+50604950$X-Saber Galahad$$EARTH$[Warrior/effect]$$$$$4$1800$800$$$$If this card attacks an opponent's monster, this card gains 300 ATK during the Damage Step only. If this card is attacked by an opponent's monster, this card loses 500 ATK during the Damage Step only. When this card is selected as an attack target, you can Tribute another "Saber" monster to negate the attack.$$$$$
+66288028$Fortress Warrior$$EARTH$[Warrior/effect]$$$$$2$600$1200$$$$You take no battle damage from attacks involving this card. Once per turn, this card cannot be destroyed by battle.$$$$$
+88559132$Turret Warrior$$EARTH$[Warrior/effect]$$$$$5$1200$2000$$$$You can Special Summon this card (from your hand) by Tributing 1 Warrior-Type monster, and if you do, it gains ATK equal to the Tributed monster's original ATK.$$$$$
+40225398$Twin-Sword Marauder$$DARK$[Warrior/effect]$$$$$4$1600$1000$$$$Once per Battle Phase, if this card attacks a Defense Position monster, it can make a second attack in a row. If this card attacks a Defense Position monster, inflict piercing battle damage to your opponent.$$$$$
+76614003$Dark Tinker$$DARK$[Fiend/effect]$$$$$2$1000$1300$$$$When this card you control is sent to the Graveyard, look at the top card of your Deck. Return that card to either the top or the bottom of the Deck.$$$$$
+20932152$Quickdraw Synchron$$WIND$[Machine/effect]$$$$$5$700$1400$$$$You can Special Summon this card (from your hand) by sending 1 monster from your hand to the GY. For a Synchro Summon, you can substitute this card for any 1 "Synchron" Tuner. Cannot be used as a Synchro Material, except for the Synchro Summon of a monster that lists a "Synchron" Tuner as material.$$$$$
+73048641$Half Shut$$SPELL$$$$$$$$$Quick-Play$$$Target 1 face-up monster on the field; it cannot be destroyed by battle this turn, also its ATK is halved until the end of this turn.$$$$$
+42703248$Giant Trunade$$SPELL$$$$$$$$$Normal$$$Return all Spell and Trap Cards on the field to the hand.$$$$$
+72892473$Card Destruction$$SPELL$$$$$$$$$Normal$$$Both players discard as many cards as possible from their hands, then each player draws the same number of cards they discarded.$$$$$
+32807846$Reinforcement of the Army$$SPELL$$$$$$$$$Normal$$$Add 1 Level 4 or lower Warrior monster from your Deck to your hand.$$$$$
+95281259$The Warrior Returning Alive$$SPELL$$$$$$$$$Normal$$$Target 1 Warrior-Type monster in your Graveyard; add that target to your hand.$$$$$
+10012614$Banner of Courage$$SPELL$$$$$$$$$Continuous$$$All monsters you control gain 200 ATK during your Battle Phase only.$$$$$
+98045062$Enemy Controller$$SPELL$$$$$$$$$Quick-Play$$$Activate 1 of these effects.
+● Target 1 face-up monster your opponent controls; change that target's battle position.
+● Tribute 1 monster, then target 1 face-up monster your opponent controls; take control of that target until the End Phase.$$$$$
+26412047$Hammer Shot$$SPELL$$$$$$$$$Normal$$$Destroy 1 face-up Attack Position monster with the highest ATK. (If it is a tie, you get to choose.)$$$$$
+74848038$Monster Reincarnation$$SPELL$$$$$$$$$Normal$$$Discard 1 card, then target 1 monster in your GY; add it to your hand.$$$$$
+98143165$Synchro Boost$$SPELL$$$$$$$$$Equip$$$The equipped monster gains 500 ATK, and its Level is increased by 1.$$$$$
+47766694$Wild Tornado$$TRAP$$$$$$$$$Normal$$$Target 1 face-up card in the Spell & Trap Zone; destroy that face-up card, then, its controller can Set 1 Spell/Trap from their hand. If this Set card is destroyed and sent to the GY: Target 1 face-up card on the field; destroy that target.$$$$$
+4206964$Trap Hole$$TRAP$$$$$$$$$Normal$$$When your opponent Normal or Flip Summons 1 monster with 1000 or more ATK: Target that monster; destroy that target.$$$$$
+60082869$Dust Tornado$$TRAP$$$$$$$$$Normal$$$Target 1 Spell/Trap your opponent controls; destroy that target, then you can Set 1 Spell/Trap from your hand.$$$$$
+4178474$Raigeki Break$$TRAP$$$$$$$$$Normal$$$Discard 1 card, then target 1 card on the field; destroy it.$$$$$
+93382620$Rope of Life$$TRAP$$$$$$$$$Normal$$$When a monster(s) is destroyed by battle and sent to your GY: Discard your entire hand (min.1), then target 1 of those monsters; Special Summon it, and if you do, it gains 800 ATK.$$$$$
+27053506$Secret Barrel$$TRAP$$$$$$$$$Normal$$$Inflict 200 damage to your opponent for each card in their hand and for each card they control.$$$$$
+56120475$Sakuretsu Armor$$TRAP$$$$$$$$$Normal$$$When an opponent's monster declares an attack: Target the attacking monster; destroy that target.$$$$$
+36361633$Threatening Roar$$TRAP$$$$$$$$$Normal$$$Your opponent cannot declare an attack this turn.$$$$$
+78211862$Rising Energy$$TRAP$$$$$$$$$Normal$$$Discard 1 card, then target 1 face-up monster on the field; that target gains 1500 ATK until the End Phase.$$$$$
+24268052$Defense Draw$$TRAP$$$$$$$$$Normal$$$During your opponent's turn, at damage calculation: Make the battle damage you take from this battle 0, and if you do, draw 1 card.$$$$$
+74860293$Junk Destroyer$$EARTH$[Warrior/synchro]$$$$$8$2600$2500$$"Junk Synchron" + 1 or more non-Tuner monsters$$When this card is Synchro Summoned: You can target cards on the field, up to the number of non-Tuner monsters used for the Synchro Summon of this card; destroy those targets.$$$$$
+80108118$X-Saber Urbellum$$EARTH$[Warrior/synchro]$$$$$7$2200$1300$$1 Tuner + 1 or more non-Tuner monsters$$When this card inflicts Battle Damage to your opponent while they have 4 or more cards in their hand, place 1 random card from their hand on top of their Deck.$$$$$
+97204936$Gaia Knight, the Force of Earth$$EARTH$[Warrior/synchro]$$$$$6$2600$800$$$$1 Tuner + 1 or more non-Tuner monsters$$$$$
+83810690$X-Saber Wayne$$EARTH$[Warrior/synchro]$$$$$5$2100$400$$1 Tuner + 1 or more non-Tuner monsters$$When this card is Synchro Summoned, you can Special Summon 1 Level 4 or lower Warrior-Type monster from your hand.$$$$$

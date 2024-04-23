@@ -1,0 +1,51 @@
+Passcode$Name$Status$Attribute$type$link$link_arrows$rank$pendulum_scale$level$attack$defense$spell_attribute$summoning_condition$pendulum_condition$card_text$card_supports$card_anti_supports$card_actions$effect_types$
+74677422$Red-Eyes Black Dragon$$DARK$[Dragon/normal]$$$$$7$2400$2000$$$$''A ferocious dragon with a deadly attack.''$$$$$
+3573512$Swordsman of Landstar$$EARTH$[Warrior/normal]$$$$$3$500$1200$$$$An amateur with a sword, this fairy warrior relies on its mysterious powers.$$$$$
+88819587$Baby Dragon$$WIND$[Dragon/normal]$$$$$3$1200$700$$$$Much more than just a child, this dragon is gifted with untapped power.$$$$$
+80770678$Spirit of the Harp$$LIGHT$[Fairy/normal]$$$$$4$800$2000$$$$A spirit that soothes the soul with the music of its heavenly harp.$$$$$
+4042268$Island Turtle$$WATER$[Aqua/normal]$$$$$4$1100$2000$$$$A huge turtle that is often mistaken for an island.$$$$$
+34460851$Flame Manipulator$$FIRE$[Spellcaster/normal]$$$$$3$900$1000$$$$This Spellcaster attacks enemies with fire-related spells such as "Sea of Flames" and "Wall of Fire".$$$$$
+44287299$Masaki the Legendary Swordsman$$EARTH$[Warrior/normal]$$$$$4$1100$1100$$$$Legendary swordmaster Masaki is a veteran of over 100 battles.$$$$$
+23771716$7 Colored Fish$$WATER$[Fish/normal]$$$$$4$1800$800$$$$A rare rainbow fish that has never been caught by mortal man.$$$$$
+15480588$Armored Lizard$$EARTH$[Reptile/normal]$$$$$4$1500$1200$$$$A lizard with a very tough hide and a vicious bite.$$$$$
+5388481$Darkfire Soldier #1$$FIRE$[Pyro/normal]$$$$$4$1700$1150$$$$An explosive expert from a special elite force.$$$$$
+30532390$Sky Scout$$WIND$[Winged Beast/normal]$$$$$4$1800$600$$$$With eyes like a hawk and a flying speed exceeding Mach 5, this monster is a master of the sky.$$$$$
+423705$Gearfried the Iron Knight$$EARTH$[Warrior/effect]$$$$$4$1800$1600$$$$If either player equips an Equip Card(s) to this card: Destroy that Equip Card(s).$$$$$
+23289281$Karate Man$$EARTH$[Warrior/effect]$$$$$3$1000$1000$$$$You can double the original ATK of this card once per turn. If you used this effect, destroy this card during the End Phase.$$$$$
+7489323$Milus Radiant$$EARTH$[Beast/effect]$$$$$1$300$250$$$$As long as this card remains face-up on the field, increase the ATK of all EARTH monsters by 500 points and decrease the ATK of all WIND monsters by 400 points.$$$$$
+71625222$Time Wizard$$LIGHT$[Spellcaster/effect]$$$$$2$500$400$$$$Once per turn: You can toss a coin and call it. If you call it right, destroy all monsters your opponent controls. If you call it wrong, destroy as many monsters you control as possible, and if you do, take damage equal to half the total ATK those destroyed monsters had while face-up on the field.$$$$$
+93013676$Maha Vailo$$LIGHT$[Spellcaster/effect]$$$$$4$1550$1400$$$$This card gains 500 ATK for each Equip Card equipped to this card.$$$$$
+31560081$Magician of Faith$$LIGHT$[Spellcaster/effect]$$$$$1$300$400$$$$FLIP: Target 1 Spell in your GY; add that target to your hand.$$$$$
+16768387$Big Eye$$DARK$[Fiend/effect]$$$$$4$1200$1000$$$$FLIP: Look at up to 5 cards from the top of your Deck, then place them on the top of the Deck in any order.$$$$$
+26202165$Sangan$$DARK$[Fiend/effect]$$$$$3$1000$600$$$$If this card is sent from the field to the GY: Add 1 monster with 1500 or less ATK from your Deck to your hand, but you cannot activate cards, or the effects of cards, with that name for the rest of this turn. You can only use this effect of "Sangan" once per turn.$$$$$
+51371017$Princess of Tsurugi$$WIND$[Warrior/effect]$$$$$3$900$700$$$$FLIP: Inflict 500 damage to your opponent for each Spell and Trap Card on your opponent's side of the field.$$$$$
+15150365$White Magical Hat$$LIGHT$[Spellcaster/effect]$$$$$3$1000$700$$$$When this card inflicts Battle Damage to your opponent's Life Points, your opponent discards 1 card randomly from his/her hand.$$$$$
+93920745$Penguin Soldier$$WATER$[Aqua/effect]$$$$$2$750$500$$$$FLIP: You can target up to 2 monsters on the field; return those targets to the hand.$$$$$
+41462083$Thousand Dragon$$WIND$[Dragon/fusion]$$$$$7$2400$2000$$$$"Time Wizard" + "Baby Dragon"$$$$$
+45231177$Flame Swordsman$$FIRE$[Warrior/fusion]$$$$$5$1800$1600$$$$"Flame Manipulator" + "Masaki the Legendary Swordsman"$$$$$
+99597615$Malevolent Nuzzler$$SPELL$$$$$$$$$Equip$$$The equipped monster gains 700 ATK. When this card is sent from the field to the Graveyard: You can pay 500 LP; place this card on the top of your Deck.$$$$$
+53129443$Dark Hole$$SPELL$$$$$$$$$Normal$$$Destroy all monsters on the field.$$$$$
+84257640$Dian Keto the Cure Master$$SPELL$$$$$$$$$Normal$$$Increase your Life Points by 1000 points.$$$$$
+66788016$Fissure$$SPELL$$$$$$$$$Normal$$$Destroy the 1 face-up monster your opponent controls that has the lowest ATK (your choice, if tied).$$$$$
+19159413$De-Spell$$SPELL$$$$$$$$$Normal$$$Target 1 face-up Spell, or 1 Set Spell/Trap, on the field; destroy that target if it is a Spell. (If the target is Set, reveal it.)$$$$$
+4031928$Change of Heart$$SPELL$$$$$$$$$Normal$$$Target 1 monster your opponent controls; take control of it until the End Phase.$$$$$
+25880422$Block Attack$$SPELL$$$$$$$$$Normal$$$Target 1 face-up Attack Position monster your opponent controls; change that target to face-up Defense Position.$$$$$
+42703248$Giant Trunade$$SPELL$$$$$$$$$Normal$$$Return all Spell and Trap Cards on the field to the hand.$$$$$
+16430187$The Reliable Guardian$$SPELL$$$$$$$$$Quick-Play$$$Increase 1 face-up monster's DEF by 700 points until the end of this turn.$$$$$
+51482758$Remove Trap$$SPELL$$$$$$$$$Normal$$$Select 1 face-up Trap Card on the field and destroy it.$$$$$
+83764719$Monster Reborn$$SPELL$$$$$$$$$Normal$$$Target 1 monster in either GY; Special Summon it.$$$$$
+24094653$Polymerization$$SPELL$$$$$$$$$Normal$$$Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Material.$$$$$
+50913601$Mountain$$SPELL$$$$$$$$$Field$$$All Dragon, Winged Beast, and Thunder monsters on the field gain 200 ATK/DEF.$$$$$
+1435851$Dragon Treasure$$SPELL$$$$$$$$$Equip$$$A Dragon-Type monster equipped with this card increases its ATK and DEF by 300 points.$$$$$
+95051344$Eternal Rest$$SPELL$$$$$$$$$Normal$$$Destroy all monsters equipped with Equip Cards.$$$$$
+52097679$Shield & Sword$$SPELL$$$$$$$$$Normal$$$Switch the original ATK and DEF of all face-up monsters currently on the field, until the end of this turn.$$$$$
+73915051$Scapegoat$$SPELL$$$$$$$$$Quick-Play$$$Special Summon 4 "Sheep Tokens" (Beast/EARTH/Level 1/ATK 0/DEF 0) in Defense Position. They cannot be Tributed for a Tribute Summon. You cannot Summon other monsters the turn you activate this card (but you can Normal Set).$$$$$
+24068492$Just Desserts$$TRAP$$$$$$$$$Normal$$$Inflict 500 damage to your opponent for each monster they control.$$$$$
+4206964$Trap Hole$$TRAP$$$$$$$$$Normal$$$When your opponent Normal or Flip Summons 1 monster with 1000 or more ATK: Target that monster; destroy that target.$$$$$
+17814387$Reinforcements$$TRAP$$$$$$$$$Normal$$$Target 1 face-up monster on the field; it gains 500 ATK until the end of this turn.$$$$$
+44209392$Castle Walls$$TRAP$$$$$$$$$Normal$$$Increase the DEF of 1 face-up monster on the field by 500 points until the end of this turn.$$$$$
+12607053$Waboku$$TRAP$$$$$$$$$Normal$$$You take no battle damage from your opponent's monsters this turn. Your monsters cannot be destroyed by battle this turn.$$$$$
+80604092$Ultimate Offering$$TRAP$$$$$$$$$Continuous$$$During your Main Phase or your opponent's Battle Phase: You can pay 500 Life Points; immediately after this effect resolves, Normal Summon/Set 1 monster.$$$$$
+3819470$Seven Tools of the Bandit$$TRAP$$$$$$$$$Counter$$$When a Trap Card is activated: Pay 1000 LP; negate the activation, and if you do, destroy it.$$$$$
+3027001$Fake Trap$$TRAP$$$$$$$$$Normal$$$Activate only when your opponent activates a Spell, Trap, or Effect Monster's effect that would destroy a Trap Card(s) you control. Destroy this card instead. (If the cards that would have been destroyed are face-down, you can look at them to confirm.)$$$$$
+77622396$Reverse Trap$$TRAP$$$$$$$$$Normal$$$Until the End Phase, all effects that add or subtract ATK or DEF are reversed. (Additions now subtract, and subtractions now add, instead. Multiplications and divisions, including halving/doubling, are not affected.)$$$$$

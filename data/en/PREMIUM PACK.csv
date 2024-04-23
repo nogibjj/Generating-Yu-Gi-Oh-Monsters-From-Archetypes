@@ -1,0 +1,18 @@
+Passcode$Name$Status$Attribute$type$link$link_arrows$rank$pendulum_scale$level$attack$defense$spell_attribute$summoning_condition$pendulum_condition$card_text$card_supports$card_anti_supports$card_actions$effect_types$
+30208479$Magician of Black Chaos$$DARK$[Spellcaster/ritual]$$$$$8$2800$2600$$$$You can Ritual Summon this card with "Black Magic Ritual".$$$$$
+76792184$Black Magic Ritual$$SPELL$$$$$$$$$Ritual$$$This card is used to Ritual Summon "Magician of Black Chaos". You must also Tribute monsters from your hand or field whose total Levels equal 8 or more.$$$$$
+31305911$Marshmallon$$LIGHT$[Fairy/effect]$$$$$3$300$500$$$$Cannot be destroyed by battle. After damage calculation, if this card was attacked, and was face-down at the start of the Damage Step: The attacking player takes 1000 damage.$$$$$
+66865880$Marshmallon Glasses$$SPELL$$$$$$$$$Continuous$$$While "Marshmallon" is in your Monster Zone, your opponent cannot target monsters other than "Marshmallon" for attacks.$$$$$
+67688478$Gemini Imps$$DARK$[Fiend/effect]$$$$$4$1000$1000$$$$During either player's turn, when your opponent activates a Spell Card, Trap Card, or monster effect that could make you discard when it resolves: You can send this card from your hand to the Graveyard; negate the activation, and if you do, destroy it. Then draw 1 card.$$$$$
+3072077$Return Zombie$$DARK$[Zombie/effect]$$$$$4$1000$1600$$$$During your Standby Phase: You can pay 500 Life Points; add this card from your Graveyard to your hand. You must have no cards in your hand to activate and to resolve this effect.$$$$$
+30683373$Shield Crush$$SPELL$$$$$$$$$Normal$$$Target 1 Defense Position monster on the field; destroy that target.$$$$$
+99789342$Dark Magic Curtain$$SPELL$$$$$$$$$Normal$$$Pay half your LP; Special Summon 1 "Dark Magician" from your Deck. You cannot Summon other monsters the turn you activate this card (but you can Set).$$$$$
+30461781$Legacy of Yata-Garasu$$TRAP$$$$$$$$$Normal$$$Activate 1 of these effects:
+● Draw 1 card.
+● Activate only if your opponent controls a face-up Spirit monster. Draw 2 cards.$$$$$
+81756897$Zera Ritual$$SPELL$$$$$$$$$Ritual$$$This card is used to Ritual Summon "Zera the Mant". You must also Tribute monsters from the field or your hand whose total Levels equal 8 or more.$$$$$
+69123138$Zera the Mant$$DARK$[Fiend/ritual]$$$$$8$2800$2300$$$$This card can only be Ritual Summoned with the Ritual Spell Card, "Zera Ritual".$$$$$
+41182875$Javelin Beetle Pact$$SPELL$$$$$$$$$Ritual$$$This card is used to Ritual Summon "Javelin Beetle". You must also Tribute monsters from the field or your hand whose total Levels equal 8 or more.$$$$$
+26932788$Javelin Beetle$$EARTH$[Insect/ritual]$$$$$8$2450$2550$$$$This card can only be Ritual Summoned with the Ritual Spell Card, "Javelin Beetle Pact".$$$$$
+68540059$Metalmorph$$TRAP$$$$$$$$$Normal$$$Target 1 face-up monster on the field; equip this card to that target. It gains 300 ATK/DEF. If it attacks, it gains ATK equal to half the ATK of the attack target, during damage calculation only.$$$$$
+64335805$Red-Eyes Black Metal Dragon$$DARK$[Machine/effect]$$$$$8$2800$2400$$$$Cannot be Normal Summoned/Set. Must first be Special Summoned (from your Deck) by Tributing "Red-Eyes B. Dragon" equipped with "Metalmorph".$$$$$
