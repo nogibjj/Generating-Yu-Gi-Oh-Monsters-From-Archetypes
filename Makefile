@@ -6,7 +6,7 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=__*__.py --disable=W0511,E1101 *.py
+	pylint --disable=R,C --ignore-patterns=helper.py,__*__.py --disable=W0511,E1101 *.py
 
 test:
 	# python -m pytest -vv --cov=Code_10 --cov=main test_*.py
