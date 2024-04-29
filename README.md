@@ -30,3 +30,12 @@ Current solutions for generating yu-gi-oh cards are insufficient and lacking in 
 **Note to Jiwon**: Thank you for doing my Dream ML project with me.
 
 **Other Note to Jiwon**: I've put up with your annoying existence for a full year, but one in-class semester. I will endure a bit more just to torment you further, woman.
+
+
+# setup
+
+```
+$ conda init 
+$ pip install -r requirements.txt
+$ streamlit run app.py
+```
