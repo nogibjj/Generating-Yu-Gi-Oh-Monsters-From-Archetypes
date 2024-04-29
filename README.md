@@ -3,7 +3,26 @@ Machine Learning Experiment to generate card images and text from the titular ca
 
 ## What are Archetypes? Why make this project?
 
-## Research Questions
+## Research Questions (Update by Jiwon)
+1.	Tool Selection and Comparison
+- What are the prominent tools available for tasks like text-to-image generation and image captioning? What are their pros, cons, and suitable options for our needs? Additionally, what factors led us to choose this particular tool in the end?
+
+2.	Model Analysis and Improvement
+- What were the shortcomings of previous models similar to ours? (e.g., low image resolution, blurriness, model collapse, limited image variety, missing or inaccurate details)
+- How can we train and develop a model to address these challenges? Would controlling the archetypes present in the training data lead to better image generation? If we control for archetypes in the training data, can some current GAN models serve to generate better images? What does it mean to isolate cards by archetype and can it be done? (CV) Method 1: Isolate by keywords (title, card text) EX Dark Magician: Step 1: Filter all cards with that keyword Step 2: Filter for Monster Cards Only
+
+3.	Data Management and Augmentation 
+- Yugioh cards are categorized into specific classes, but the number of images in each class is limited, which could impact our model's output. How can we diversify the images our model generates? Do we need near-wise archetypes for data augmentation for generating believable images and text?
+
+4.	Text Data Analysis
+- Is it feasible to train models to produce archetype-specific descriptions for the cards? (NLP) What would well-defined sentiment analysis and other NLP-specific metric evaluations tell us about our archetype's text data?
+
+5.	Pixel Distribution Analysis
+- Can we identify pixel distributions for the archetype's training data? If found, do they vary much across different and popular archetypes?
+
+6.	Alternative Approaches
+- Is there a better approach than using an archetype to define the training data? What about monster cards, card types, card series' origins, pixel similarities? What role does stable diffusion play in this space? What is it? Why does it do some tasks incredibly well?
+
 
 ### Hypothesis
 Current solutions for generating yu-gi-oh cards are insufficient and lacking in the field because they mix cards from multiple different archetypes. That is our hypothesis. To solve this, we propose that the way to artificially generate better cards is to use the already pre-existing General Adversarial Networks (GANs) with more wisely chosen data. In other words, the idea is to choose cards from one consistent archetype; don't mix dragons with humanoid warriors if one wants to make an archetypically consistent card. Otherwise, the model is receiving tons of inconsistent data and making tons of inconsistent cards. In short, our hypothesis is that better artifical cards can be generated with more wisely selected data.
