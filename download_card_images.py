@@ -53,7 +53,7 @@ def main():
 
 		# Downloads the file
 		image = requests.get(link, allow_redirects=True)
-		open('dataset/' + file_name, 'wb').write(image.content)
+		open('card_images/' + file_name, 'wb').write(image.content)
 
 		# Sleeps to not exceed the limit allowed by the API
 		time.sleep(0.05)
