@@ -68,12 +68,17 @@ def extract_info(json_data, archetypes):
                     "attribute", "Unknown"
                 ),  # Check if 'attribute' exists, if not, set to 'Unknown'
                 "archetype": card.get("archetype", "Unknown"),
-                "image_url(s)": [
-                    url["image_url_cropped"]
-                    for url in card.get("card_images", {"image_url_cropped": ""})
-                ],
             }
-            card_info.append(card_dict)
+            image_urls = [url["image_url_cropped"] for url in card.get("card_images", "")]
+            urls_count = len(image_urls)
+            if urls_count == 0:
+                card_dict["image_url"] = ""
+                card_info.append(card_dict)
+            else:
+                for i in range(urls_count):
+                    copy_card_dict = card_dict.copy()
+                    copy_card_dict["image_url"] = image_urls[i]
+                    card_info.append(copy_card_dict)
     return card_info
 
 
@@ -90,21 +95,18 @@ def download_images(card_info, data_path="training_images"):
     image_quantity = len(card_info)
     for i in range(image_quantity):
         id = str(card_info[i]["id"])
-        links = card_info[i]["image_url(s)"]
-        paths = []
-        for link in links:
-            try:
-                name = re.findall("([0-9]+\..*)", link)[0]
-                filename = data_path + os.path.sep + name
-                draw_loader(name, image_quantity, i + 1)
-                image = requests.get(link, allow_redirects=True)
-                open(filename, "wb").write(image.content)
-                paths.append(filename)
-                time.sleep(0.05)
-            except IndexError:
-                print("Error with link:", link)
-                pass
-        card_info[i]["image_path(s)"] = paths
+        link = card_info[i]["image_url"]
+        try:
+            name = re.findall("([0-9]+\..*)", link)[0]
+            filename = data_path + os.path.sep + name
+            draw_loader(name, image_quantity, i + 1)
+            image = requests.get(link, allow_redirects=True)
+            open(filename, "wb").write(image.content)
+            time.sleep(0.05)
+        except IndexError:
+            print("Error with link:", link)
+            pass
+        card_info[i]["image_path"] = filename
     print("Process Finished!")
 
 
@@ -138,6 +140,9 @@ def scrape_archetypes(archetypes, data_path="training_images"):
             writer.writeheader()
 
             for card in card_info:
+                # Skip Skill Cards
+                if card["type"] == "Skill Card":
+                    continue
                 writer.writerow(card)
 
     except requests.exceptions.RequestException as e:
