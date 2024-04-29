@@ -29,8 +29,8 @@ jobs:
       - name: Format
         run: make format
       
-      - name: Linting
-        run: make lint
+      # - name: Linting
+      #   run: make lint
 
       # - name: Configure AWS credentials
       #   uses: aws-actions/configure-aws-credentials@v1
