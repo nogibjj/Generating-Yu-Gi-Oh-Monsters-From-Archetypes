@@ -59,6 +59,7 @@ def main():
     except requests.exceptions.RequestException as e:
         print("Error fetching data:", e)
 
+
 if __name__ == '__main__':
     os.system('cls' if os.name == 'nt' else 'clear')
     main()

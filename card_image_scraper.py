@@ -75,6 +75,7 @@ def main():
         time.sleep(0.05)
     print('Process Finished!')
 
+
 if __name__ == '__main__':
     os.system('cls' if os.name == 'nt' else 'clear')
     main()
