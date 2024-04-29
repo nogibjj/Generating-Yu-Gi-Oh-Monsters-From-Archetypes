@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
-# from PIL import Image
+from PIL import Image
+import time
 # import requests
 
 # Function to generate random text
@@ -16,7 +17,61 @@ def generate_image():
 
 # Main function to run the Streamlit app
 def main():
-    st.title("Generate Random Content")
+    
+    # If provided, EDA will be available
+    ARCHETYPE_PROVIDED = False 
+
+    st.set_page_config(
+    page_title="Yu-Gi-Oh! Card Generator",
+    page_icon="https://upload.wikimedia.org/wikipedia/en/2/2b/Yugioh_Card_Back.jpg",
+    layout="centered",
+    initial_sidebar_state="expanded",
+    menu_items={
+    'Get help': 'https://github.com/nogibjj/Generating-Yu-Gi-Oh-Monsters-From-Archetypes/',
+    'Report a bug': "https://github.com/nogibjj/Generating-Yu-Gi-Oh-Monsters-From-Archetypes/",
+    'About': "# Made by Eric Rios and Shin Jiwon. This is an *extremely* cool app! Our repository is https://github.com/nogibjj/Generating-Yu-Gi-Oh-Monsters-From-Archetypes/"
+    }
+    )
+
+    image = Image.open("logo.jpg")
+    resized_image = image.resize((500, 500))
+    left_co, cent_co,last_co = st.columns(3)
+    with cent_co:
+        st.image(image)  # Set the width to the desired value
+
+    st.title("Welcome to the Yu-Gi-Oh! Card Archetype Generator")
+    st.markdown(
+        """
+        Welcome to the Yu-Gi-Oh! Card Archetype Generator. \n
+        Here you can generate cards by providing the keywords of the archetype that you are interested in generating. 
+        Under Generator Builder, provide the keyword(s), separated by commas, and press "Get Archetype". \n
+        """
+    )
+        
+    with st.sidebar:
+        
+        st.title("Generator Builder")
+        st.write("""Please enter the keyword(s) of the archetype you would like to generate. 
+                 Here are some examples to get you started. Scroll below and to the right to see them.
+                 
+                 1) Dark Magician  2) 'Blue-Eyes, Harpie Lady'""")
+
+        user_input = st.text_input("Enter Archetype Here")
+                    
+        if st.button("Get Archetype"):
+
+            if user_input == "" or user_input == None or len(user_input) < 3:
+                st.warning("Please enter an archetype.")
+
+            else:
+                ARCHETYPE_PROVIDED = True
+                scraper_input = user_input.lower()
+
+                with st.spinner(f"Getting data for {user_input}..."):
+                    
+                    time.sleep(3)
+                    st.write(f"Here is the archetype for {user_input}")
+                    st.success("Done")
 
     # Button to generate random text
     if st.button("Generate Text"):
@@ -27,6 +82,19 @@ def main():
     if st.button("Generate Image"):
         random_image = generate_image()
         st.image(random_image, caption='Random Image', use_column_width=True)
+
+
+    if ARCHETYPE_PROVIDED:
+        st.title("Data Analysis for Archetype(s) Provided", anchor="data-analysis")
+        st.markdown(
+            """
+            Here you can see various descriptive statistics regarding the archetypes provided.. \n
+            Description. \n 
+            """
+        )
+        st.write("Data Analysis for Archetype(s) Provided")
+        st.write(f"Archetype(s): {user_input}")
+
 
 if __name__ == '__main__':
     main()
