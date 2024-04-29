@@ -115,6 +115,10 @@ def scrape_archetypes(archetypes, data_path="training_images"):
     ex1: "Blue-Eyes White Dragon, Dark Magician"
     ex2: "Red-Eyes Black Dragon"
     """
+
+    if not os.path.exists(data_path):
+        os.makedirs(data_path)
+    
     archetype_set = process_archetype_input(archetypes)
 
     URL = "https://db.ygoprodeck.com/api/v7/cardinfo.php"
