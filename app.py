@@ -2,6 +2,9 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import time
+from pipeline import scrape_archetypes
+import pandas as pd 
+import os
 # import requests
 
 # Function to generate random text
@@ -19,8 +22,8 @@ def generate_image():
 def main():
     
     # If provided, EDA will be available
-    ARCHETYPE_PROVIDED = False 
-
+    # ARCHETYPE_PROVIDED = False 
+    
     st.set_page_config(
     page_title="Yu-Gi-Oh! Card Generator",
     page_icon="https://upload.wikimedia.org/wikipedia/en/2/2b/Yugioh_Card_Back.jpg",
@@ -32,7 +35,7 @@ def main():
     'About': "# Made by Eric Rios and Shin Jiwon. This is an *extremely* cool app! Our repository is https://github.com/nogibjj/Generating-Yu-Gi-Oh-Monsters-From-Archetypes/"
     }
     )
-
+    
     image = Image.open("logo.jpg")
     resized_image = image.resize((500, 500))
     left_co, cent_co,last_co = st.columns(3)
@@ -47,7 +50,7 @@ def main():
         Under Generator Builder, provide the keyword(s), separated by commas, and press "Get Archetype". \n
         """
     )
-        
+    card_database = pd.read_csv("lib/training_cards.csv")
     with st.sidebar:
         
         st.title("Generator Builder")
@@ -64,36 +67,41 @@ def main():
                 st.warning("Please enter an archetype.")
 
             else:
-                ARCHETYPE_PROVIDED = True
-                scraper_input = user_input.lower()
+                # ARCHETYPE_PROVIDED = True
 
                 with st.spinner(f"Getting data for {user_input}..."):
-                    
-                    time.sleep(3)
+                    scrape_archetypes(user_input, data_path="training_images")
                     st.write(f"Here is the archetype for {user_input}")
                     st.success("Done")
+                    card_database = pd.read_csv("training_cards.csv")
 
     # Button to generate random text
+    
     if st.button("Generate Text"):
         random_text = generate_text()
         st.write(f"Random Text: {random_text}")
+        # choose a random card from the card_database
+        random_card = card_database.sample()
+        st.write(random_card["name"].values[0])
 
     # Button to generate random image
     if st.button("Generate Image"):
         random_image = generate_image()
-        st.image(random_image, caption='Random Image', use_column_width=True)
+        # choose a random card from the card_database
+        random_card = card_database.sample()
+        path = "training_images" + os.path.sep + str(random_card["id"].values[0]) + ".jpg"
+        st.write("Random Image: " + path)
+        st.image(path, caption=random_card["name"].values[0], use_column_width=True)
 
-
-    if ARCHETYPE_PROVIDED:
-        st.title("Data Analysis for Archetype(s) Provided", anchor="data-analysis")
-        st.markdown(
-            """
-            Here you can see various descriptive statistics regarding the archetypes provided.. \n
-            Description. \n 
-            """
-        )
-        st.write("Data Analysis for Archetype(s) Provided")
-        st.write(f"Archetype(s): {user_input}")
+    st.title("Data Analysis for Archetype(s) Provided", anchor="data-analysis")
+    st.markdown(
+        """
+        Here you can see various descriptive statistics regarding the archetypes provided.. \n
+        Description. \n 
+        """
+    )
+    st.write("Data Analysis for Archetype(s) Provided")
+    st.write(f"Archetype(s): {user_input}")
 
 
 if __name__ == '__main__':
