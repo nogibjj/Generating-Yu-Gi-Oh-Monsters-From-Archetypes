@@ -110,7 +110,7 @@ def download_images(card_info, data_path="training_images"):
     print("Process Finished!")
 
 
-def scrape_archetypes(archetypes, data_path="training_images"):
+def scrape_archetypes(archetypes, data_path="training_images", csv_path="training_images", csv_name="training_cards.csv"):
     """
     archetypes: string containing the names
     Examples below
@@ -135,7 +135,7 @@ def scrape_archetypes(archetypes, data_path="training_images"):
         card_info = extract_info(data, archetype_set)
         download_images(card_info, data_path)
 
-        with open("training_cards.csv", mode="w", newline="", encoding="utf-8") as file:
+        with open(data_path + os.path.sep + "training_cards.csv", mode="w", newline="", encoding="utf-8") as file:
             writer = csv.DictWriter(file, fieldnames=list(card_info[0].keys()))
             writer.writeheader()
 
