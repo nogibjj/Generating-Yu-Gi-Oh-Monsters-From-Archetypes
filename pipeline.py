@@ -82,7 +82,7 @@ def extract_info(json_data, archetypes):
     return card_info
 
 
-def download_images(card_info, data_path="training_images"):
+def download_images(card_info, data_path="training_images", card_types = ["spell", "trap", "monster", "token"]):
     """Downloads the images of the cards to the data path
     and adds the path to the card information.
     Args:
@@ -96,21 +96,32 @@ def download_images(card_info, data_path="training_images"):
     for i in range(image_quantity):
         id = str(card_info[i]["id"])
         link = card_info[i]["image_url"]
-        try:
-            name = re.findall("([0-9]+\..*)", link)[0]
-            filename = data_path + os.path.sep + name
-            draw_loader(name, image_quantity, i + 1)
-            image = requests.get(link, allow_redirects=True)
-            open(filename, "wb").write(image.content)
-            time.sleep(0.05)
-        except IndexError:
-            print("Error with link:", link)
+        type_of_card = set(card_info[i]["type"].lower().split(" "))
+        valid_type=False
+
+        for c_type in type_of_card:
+            if c_type in card_types:
+                valid_type=True
+
+        if valid_type:
+            try:
+                name = re.findall("([0-9]+\..*)", link)[0]
+                filename = data_path + os.path.sep + name
+                draw_loader(name, image_quantity, i + 1)
+                image = requests.get(link, allow_redirects=True)
+                open(filename, "wb").write(image.content)
+                time.sleep(0.05)
+            except IndexError:
+                print("Error with link:", link)
+                pass
+            card_info[i]["image_path"] = filename
+        else:
             pass
-        card_info[i]["image_path"] = filename
     print("Process Finished!")
 
 
-def scrape_archetypes(archetypes, data_path="training_images", csv_path="training_images", csv_name="training_cards.csv"):
+def scrape_archetypes(archetypes, data_path="training_images", csv_path="training_images", 
+                      csv_name="training_cards.csv", card_types = ["spell", "trap", "monster", "token"]):
     """
     archetypes: string containing the names
     Examples below
@@ -122,6 +133,7 @@ def scrape_archetypes(archetypes, data_path="training_images", csv_path="trainin
         os.makedirs(data_path)
     
     archetype_set = process_archetype_input(archetypes)
+    card_types = set(card_types)
 
     URL = "https://db.ygoprodeck.com/api/v7/cardinfo.php"
 
@@ -133,17 +145,19 @@ def scrape_archetypes(archetypes, data_path="training_images", csv_path="trainin
 
         # Extracting the card information for the given archetypes
         card_info = extract_info(data, archetype_set)
-        download_images(card_info, data_path)
+        download_images(card_info, data_path, card_types)
 
-        with open(data_path + os.path.sep + "training_cards.csv", mode="w", newline="", encoding="utf-8") as file:
+        with open(csv_path + os.path.sep + csv_name, mode="w", newline="", encoding="utf-8") as file:
             writer = csv.DictWriter(file, fieldnames=list(card_info[0].keys()))
             writer.writeheader()
-
+    
             for card in card_info:
                 # Skip Skill Cards
-                if card["type"] == "Skill Card":
-                    continue
-                writer.writerow(card)
+                # if card["type"] == "Skill Card":
+                #     continue
+                for type in set(card["type"].lower().split(" ")):
+                    if type in card_types:
+                        writer.writerow(card)
 
     except requests.exceptions.RequestException as e:
         print("Error fetching data:", e)
