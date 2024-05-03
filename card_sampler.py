@@ -54,7 +54,7 @@ def extract_image_id(image_path):
     """Extracts card image file name from path"""
     return image_path.split("/")[-1]
  
-def build_sample(img_path, csv_path, new_image_path, random_state=42):
+def build_sample(img_path, csv_path, random_state=42):
     """Builds a sample from a csv file with all cards.
         Args:
             img_path (str): The path to the image folder.
@@ -76,7 +76,7 @@ def build_sample(img_path, csv_path, new_image_path, random_state=42):
             # copy image to new folder
             # os.rename(os.path.join(img_path, image), os.path.join(new_image_path, image))
             # os.remove(os.path.join(img_path, image))
-    
+    # sampled_csv.rename(columns={"image_id" : "file_name"}, inplace=True)
     sampled_csv.to_csv(csv_path, index=False)
 
     return 
@@ -86,8 +86,7 @@ def build_sample(img_path, csv_path, new_image_path, random_state=42):
 if __name__ == "__main__":
     img_path = "training_data_final/training_images"
     csv_path = "training_data_final/all_training_cards.csv"
-    new_image_path = "training_data_final/sampled_images"
-    build_sample(img_path, csv_path, new_image_path, random_state=42)
+    build_sample(img_path, csv_path, random_state=42)
     
     print("Sampled data created!")
 
