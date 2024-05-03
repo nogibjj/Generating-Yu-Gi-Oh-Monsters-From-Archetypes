@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 from card_sampler import classifier_type 
 import os
+from pipeline import dataset_cleaner
 
 def card_set_split(csv_path, img_path, class_name,source_folder):
     """Splits the data into training and testing sets.
@@ -57,6 +58,9 @@ if __name__ == "__main__":
     img_path = "training_data_final/training_images"
     class_name = "all"
     source_folder = "training_data_final"
+    
+    dataset_cleaner(img_path, csv_path)
+
     card_set_split(csv_path, img_path, class_name,source_folder)
 
     for arch in ["darkmagician", "blueeyes", "elementalhero"]:
@@ -64,6 +68,7 @@ if __name__ == "__main__":
         img_path = "training_data_final/" + arch + "_images"
         class_name = arch
         source_folder = "training_data_final"
+        dataset_cleaner(img_path, csv_path)
         card_set_split(csv_path, img_path, class_name,source_folder)
 
 print("Done!")
