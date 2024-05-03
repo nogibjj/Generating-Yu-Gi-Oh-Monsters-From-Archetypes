@@ -52,7 +52,7 @@ def extract_info(json_data, archetypes):
     """
     card_info = []
     for card in json_data:
-        if "en" in card["desc"] and search_archetype(card, archetypes):
+        if "en" in card["desc"] and (search_archetype(card, archetypes) or "all" in archetypes):
             card_dict = {
                 "id": card["id"],
                 "name": card["name"],
