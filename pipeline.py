@@ -6,6 +6,8 @@ import csv
 import time
 import os
 import re
+import pandas as pd
+import cv2
 
 
 def process_archetype_input(archetypes):
@@ -115,6 +117,7 @@ def download_images(card_info, data_path="training_images", card_types = ["spell
                 print("Error with link:", link)
                 pass
             card_info[i]["image_path"] = filename
+            card_info[i]["file_name"] = filename.split("/")[-1]
         else:
             pass
     print("Process Finished!")
@@ -162,6 +165,26 @@ def scrape_archetypes(archetypes, data_path="training_images", csv_path="trainin
     except requests.exceptions.RequestException as e:
         print("Error fetching data:", e)
 
+def dataset_cleaner(dataset_path, csv_path):
+    """
+    Removes images and records that cannot be read by cv2
+    """
+    df = pd.read_csv(csv_path)
+    erased_images_list = []
+    print("The dataset contains {} images".format(len(os.listdir(dataset_path))))
+    print("The csv has ", df.shape)
+    for image in os.listdir(dataset_path):
+        img = cv2.imread(os.path.join(dataset_path, image))
+        if img is None:
+            print("Removed image : " + image)
+            os.remove(os.path.join(dataset_path, image))
+            erased_images_list.append(image)
+
+    df = df[~df['file_name'].isin(erased_images_list)].reset_index(drop=True)
+    df.to_csv(csv_path, index=False)
+    print("The dataset now contains {} images".format(len(os.listdir(dataset_path))))
+    print("The csv now has ", df.shape)
+    return 
 
 if __name__ == "__main__":
     os.system("cls" if os.name == "nt" else "clear")
