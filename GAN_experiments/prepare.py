@@ -48,3 +48,6 @@ if __name__ == "__main__":
             shutil.copytree(folder, folder.split("/")[-1])
 
         prepare_structure(folder.split("/")[-1])
+
+    # shutil.copytree("../training_data_final/all_data", "all_data")
+    # prepare_structure("all_data")
