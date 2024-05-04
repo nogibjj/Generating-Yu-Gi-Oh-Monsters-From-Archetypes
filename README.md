@@ -1,4 +1,4 @@
-# Generating Yu-Gi-Oh Monster Images and Text Using GAN, Stable Diffusion, and GIT Models
+## Generating Yu-Gi-Oh Monster Images and Text Using GAN, Stable Diffusion, and GIT Models
 ## Machine Learning Experiment 
 We embarked on a machine learning experiment aimed at generating card images and text inspired by the titular card game created by Kazuki Takahashi, which embodies themes of grace, power, and peace.
 
