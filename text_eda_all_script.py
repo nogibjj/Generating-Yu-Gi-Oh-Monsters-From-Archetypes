@@ -16,7 +16,7 @@ nltk.download("stopwords")
 nltk.download("averaged_perceptron_tagger")
 nltk.download("vader_lexicon")
 
-def comprehensive_eda(data):
+def comprehensive_eda(data, save_path=None):
     # Define custom stopwords
     custom_stopwords = set(stopwords.words("english")) | {"1", ".", ","}
 
@@ -54,6 +54,8 @@ def comprehensive_eda(data):
     ax2.set_xticklabels(descs, rotation=45, ha="right")
 
     plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path + "/top_meaningful_words.png")
     plt.show()
 
     # Function to count meaningful words, excluding manual stopwords and digits
@@ -127,6 +129,8 @@ def comprehensive_eda(data):
     axes[2, 1].set_ylabel("Frequency")
     axes[2, 1].tick_params(axis="x", rotation=45)
 
+    if save_path:
+        plt.savefig(save_path + "/top_frequencies.png")
     plt.show()
 
     # Apply POS tagging to each description
@@ -146,6 +150,8 @@ def comprehensive_eda(data):
     plt.xlabel("POS Tags")
     plt.ylabel("Frequency")
     plt.xticks(rotation=45)
+    if save_path:
+        plt.savefig(save_path + "/top_pos_tags.png")
     plt.show()
 
     # Apply sentiment analysis to each description
@@ -158,7 +164,10 @@ def comprehensive_eda(data):
     plt.title("Distribution of Sentiment Scores")
     plt.xlabel("Sentiment Score")
     plt.ylabel("Frequency")
+    if save_path:
+        plt.savefig(save_path + "/sentiment_distribution.png")
     plt.show()
 
 data = pd.read_csv("C:/Users/wonny/Downloads/Generating-Yu-Gi-Oh-Monsters-From-Archetypes/training_data_final/all_training_cards.csv")
-comprehensive_eda(data)
+comprehensive_eda(data, save_path="C:/Users/wonny/Downloads/")
+
