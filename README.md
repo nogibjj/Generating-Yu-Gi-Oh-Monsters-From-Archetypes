@@ -2,10 +2,11 @@
 ## Machine Learning Experiment 
 We embarked on a machine learning experiment aimed at generating card images and text inspired by the titular card game created by Kazuki Takahashi, which embodies themes of grace, power, and peace.
 
-## Background
-Our endeavor builds upon the diverse visual landscape presented by Yu-Gi-Oh! cards, which feature vibrant color schemes and distinct archetypes. Contrasting with the more uniform designs of Pokémon cards, this diversity offers an ideal dataset for testing and refining image generation techniques. Our project endeavors to push the boundaries of Generative Adversarial Network (GAN) technology, exploring its potential to generate intricate and varied visual elements. By doing so, we aim to contribute to advancements in both the AI sector and the gaming industry. While GANs have proven effective in producing detailed and diverse images, there remains room for improvement, especially in handling complex visual data such as Yu-Gi-Oh! cards.
+## Background / Objective 
+Our endeavor builds upon the diverse visual landscape presented by *Yu-Gi-Oh!* cards, which feature vibrant color schemes and distinct archetypes. Contrasting with the more uniform designs of Pokémon cards, this diversity offers an ideal dataset for testing and refining image generation techniques. 
 
-## Objective
+Our project endeavors to push the boundaries of Generative Adversarial Network (GAN) technology, exploring its potential to generate intricate and varied visual elements. By doing so, we aim to contribute to advancements in both the AI sector and the gaming industry. While GANs have proven effective in producing detailed and diverse images, there remains room for improvement, especially in handling complex visual data such as Yu-Gi-Oh! cards.
+
 Through our unique research inquiries and experimental framework, our objective is to enhance text-to-image and image captioning models to generate images closely resembling those in our training dataset, with a particular emphasis on realism and naturalness.
 
 ## Research Questions
