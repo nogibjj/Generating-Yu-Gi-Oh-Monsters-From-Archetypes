@@ -8,6 +8,9 @@ We aim to push the boundaries of Generative Adversarial Network (GAN) technology
 
 Our objective is to enhance text-to-image and image captioning models to generate images closely resembling those in our training dataset, with a focus on realism and naturalness.
 
+## Flowchart 
+![image](https://github.com/nogibjj/Generating-Yu-Gi-Oh-Monsters-From-Archetypes/assets/141780408/8dad15a3-ea10-4d5a-ad13-6ce41aa06f5d)
+
 ## Research Questions
 **1. Refining Yu-Gi-Oh! Card Image Generation via GAN Model Optimization**
 
