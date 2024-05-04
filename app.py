@@ -8,6 +8,9 @@ import os
 # import requests
 from apikey import MYAPIKEY
 from sdai import get_stable_diffusion_image
+from text_eda_all_script import comprehensive_eda
+
+data_for_text = pd.read_csv("training_data_final/all_training_cards.csv")
 
 # Function to generate random text
 def generate_text():
@@ -141,15 +144,27 @@ def main():
         # st.write("Random Image: " + path)
         st.image(new_image_path, use_column_width=True)
 
-    st.title("Data Analysis for Archetype Provided", anchor="data-analysis")
+    st.title("Data Analysis for YGO Cards Provided", anchor="data-analysis")
     st.markdown(
         """
-        Here you can see various descriptive statistics regarding the archetypes provided.. \n
-        Description. \n 
+        We used 50% of all cards to comply with fair use, and the sampling was stratified to preserved the distribution of the original dataset."
         """
     )
-    st.write("Data Analysis for Archetype Provided")
-    st.write(f"Archetype: {user_input}")
+    # st.write(")
+    # st.write(f"Archetype: {user_input}")
+
+    if st.button("Show Data Analysis"):
+
+        print("Starting data analysis")
+
+        comprehensive_eda(data_for_text, save_path="streamlit_images")
+
+        st.image("streamlit_images/top_frequencies.png", caption="Top Frequencies", use_column_width=True)
+        st.image("streamlit_images/top_pos_tags.png", caption="Top POS Tags", use_column_width=True)
+        st.image("streamlit_images/top_meaningful_words.png", caption="Top Meaningful Words", use_column_width=True)
+        st.image("streamlit_images/sentiment_distribution.png", caption="Sentiment Distribution", use_column_width=True)
+
+        
 
 
 if __name__ == '__main__':

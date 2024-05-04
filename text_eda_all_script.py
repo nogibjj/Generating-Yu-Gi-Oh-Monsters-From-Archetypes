@@ -168,6 +168,6 @@ def comprehensive_eda(data, save_path=None):
         plt.savefig(save_path + "/sentiment_distribution.png")
     plt.show()
 
-data = pd.read_csv("C:/Users/wonny/Downloads/Generating-Yu-Gi-Oh-Monsters-From-Archetypes/training_data_final/all_training_cards.csv")
-comprehensive_eda(data, save_path="C:/Users/wonny/Downloads/")
+# data = pd.read_csv("C:/Users/wonny/Downloads/Generating-Yu-Gi-Oh-Monsters-From-Archetypes/training_data_final/all_training_cards.csv")
+# comprehensive_eda(data, save_path="C:/Users/wonny/Downloads/")
 
