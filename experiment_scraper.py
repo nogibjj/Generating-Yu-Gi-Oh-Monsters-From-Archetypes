@@ -1,6 +1,7 @@
 from scraping_functions.pipeline import scrape_archetypes, dataset_cleaner
 from scraping_functions.card_sampler import build_sample
 import os
+import pandas as pd
 
 if __name__ == "__main__":
 
@@ -10,14 +11,23 @@ if __name__ == "__main__":
                                 {"archetype" : "All", "img_path" : "training_data_final/sampled_training_images", "csv_path" : "training_data_final", "csv_name" : "sampled_all_training_cards.csv"}]
 
     for archetypes in experiment_archetypes:
-        scrape_archetypes(archetypes["archetype"], data_path=archetypes["img_path"], csv_path=archetypes["csv_path"], csv_name=archetypes["csv_name"])
-        print("Scraping for", archetypes["archetype"], "completed!")
-        print("Starting to clean " + archetypes["archetype"])
-        dataset_cleaner(dataset_path = archetypes["img_path"], csv_path = archetypes["csv_path"] + os.path.sep + archetypes["csv_name"])
+        # scrape the archetype and remove the bad images/records.
+        archetype = archetypes["archetype"]
+        img_path = archetypes["img_path"]
+        csv_path = archetypes["csv_path"]
+        csv_name = archetypes["csv_name"]
+        scrape_archetypes(archetype, data_path=img_path, csv_path=csv_path, csv_name=csv_name)
+        print("Scraping for", archetype, "completed!")
+        print("Starting to clean " + archetype)
+        dataset_cleaner(dataset_path = img_path, csv_path = csv_path + os.path.sep + csv_name)
 
-        # if archetypes["archetype"].lower() == "all":
-        #     img_path = "training_data_final/training_images"
-        #     csv_path = "training_data_final/all_training_cards.csv"
-        #     build_sample(img_path, csv_path, random_state=42)    
-        #     print("Sampled data created!")
-
+        if archetypes["archetype"].lower() == "all":
+            # Sample from the larger dataset, but only half of it.
+            img_path = archetypes["img_path"]
+            csv_path = archetypes["csv_path"] + os.path.sep + archetypes["csv_name"]
+            df = pd.read_csv(csv_path)
+            print("The dataset contains {} images".format(len(os.listdir(img_path))))
+            print("The csv has ", df.shape)
+            print("Creating sampled data")
+            build_sample(img_path, csv_path, random_state=42)    
+            print("Sampled data created!")

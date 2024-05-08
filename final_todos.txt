@@ -1,0 +1,14 @@
+remove training_data_final_original
+remove apikey
+remove scraping scripts
+remove test_all_scraper, test_scraper
+remove test ipynbs
+
+pipeline
+scrape data
+prepare subsets for GAN
+prepare the huggingface pushing
+
+
+app pushing
+

@@ -3,15 +3,13 @@
 from datasets import load_dataset
 
 
-for a_dataset in ["darkmagician", "blueeyes", "elementalhero", "all"]:
-    # imagefolder as a name cleared out the errors for us
-    test_dataset = load_dataset("imagefolder", data_dir=f"training_data_final/{a_dataset}_data")
+if __name__ == "__main__":
+    
+    huggingface_username = "steamcyclone"
 
-    # modify with your directory
-    test_dataset.push_to_hub(f"steamcyclone/{a_dataset}_data", private=True)
+    for a_dataset in ["darkmagician", "blueeyes", "elementalhero", "all"]:
+        # imagefolder as a name cleared out the errors for us
+        test_dataset = load_dataset("imagefolder", data_dir=f"training_data_final/{a_dataset}_data")
 
-# # imagefolder as a name cleared out the errors for us
-# test_dataset = load_dataset("imagefolder", data_dir="training_data_final/darkmagician_data")
-
-# # modify with your directory
-# test_dataset.push_to_hub("steamcyclone/darkmagician", private=True)
+        # modify with your directory
+        test_dataset.push_to_hub(f"{huggingface_username}/{a_dataset}_data", private=True)
