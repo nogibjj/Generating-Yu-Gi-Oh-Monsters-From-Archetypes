@@ -1,9 +1,9 @@
 """Helper functions for splitting during the pipeline"""
 from sklearn.model_selection import train_test_split
 import pandas as pd
-from card_sampler import classifier_type 
+from scraping_functions.card_sampler import classifier_type 
 import os
-from pipeline import dataset_cleaner
+from scraping_functions.pipeline import dataset_cleaner
 
 def card_set_split(csv_path, img_path, class_name,source_folder):
     """Splits the data into training and testing sets.

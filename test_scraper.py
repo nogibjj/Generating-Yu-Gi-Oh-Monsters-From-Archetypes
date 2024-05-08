@@ -1,4 +1,4 @@
-from pipeline import scrape_archetypes
+from scraping_functions.pipeline import scrape_archetypes
 
 
 

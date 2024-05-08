@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import time
-from pipeline import scrape_archetypes, dataset_cleaner, process_archetype_input
+from scraping_functions.pipeline import scrape_archetypes, dataset_cleaner, process_archetype_input
 import pandas as pd 
 import os
 # import requests
